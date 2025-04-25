@@ -19,7 +19,7 @@ This project was developed by **Kavish Gulati** under the guidance of **Dr. Guru
 - **End-to-End AES-256 Encryption**
   - Messages are encrypted with a user-defined key before being sent.
   - Uses CBC mode with PKCS7 padding for secure message blocks.
-
+        
 - **Secure User Authentication**
   - Passwords are never stored in plaintext.
   - Implements PBKDF2 hashing with per-user salts.
@@ -44,6 +44,11 @@ This project was developed by **Kavish Gulati** under the guidance of **Dr. Guru
 ---
 
 ## 🚀 How It Works
+
+### Download the requirements
+```bash
+pip install -r requirements.txt
+```
 
 ### 1. Register / Login
 Users register with a username and password. Passwords are hashed and salted using PBKDF2 and stored securely.
